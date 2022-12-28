@@ -1,0 +1,368 @@
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: transparent;
+    z-index: 9999;
+    animation: animateColor 8s linear infinite;
+}
+@keyframes animateColor{
+    0%{
+        filter: hue-rotate(0deg)
+    }
+    100%{
+        filter: hue-rotate(360deg)
+    }
+}
+section h2 {
+    position: absolute;
+    top: 48%;   
+}
+section .container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+section .container .circle{
+    position: relative;
+    width: 150px;
+    height: 150px; 
+    margin: -7.5px;
+}
+section .container .circle:nth-child(2){
+    transform: rotate(-180deg);
+} 
+section .container .circle span{
+    position: absolute;
+    top: 20;
+    left: 20;
+    width: 100%;
+    height: 100%;
+}    
+section .container .circle span::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: calc(50% - 7.5px);
+    width: 15px;
+    height: 15px;
+    background: #00ff0a;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 20px #00ff0a,
+    0 0 40px #00ff0a,
+    0 0 60px #00ff0a,
+    0 0 80px #00ff0a,
+    0 0 100px #00ff0a;
+    transform: scale(0.1);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: scale(1);
+    }
+    50%, 100%{
+        transform: scale(0.1);
+    }
+}
+
+section .container .circle .i0{
+    transform: rotate(calc(18deg * 0));
+}
+section .container .circle .i0::before{
+            animation: animate 4s linear infinite;
+            animation-delay: calc(0.1s * 0);
+}
+section .container .circle .i1{
+    transform: rotate(calc(18deg * 1));
+}    
+section .container .circle .i1::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 1);
+}
+section .container .circle .i2{
+    transform: rotate(calc(18deg * 2));
+}
+section .container .circle .i2::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 2);
+}
+section .container .circle .i3{
+    transform: rotate(calc(18deg * 3));
+}    
+section .container .circle .i3::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 3);
+}
+section .container .circle .i4{
+    transform: rotate(calc(18deg * 4));
+}
+section .container .circle .i4::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 4);
+}
+section .container .circle .i5{
+    transform: rotate(calc(18deg * 5));
+}    
+section .container .circle .i5::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 5);
+}
+section .container .circle .i6{
+        transform: rotate(calc(18deg * 6));
+}
+section .container .circle .i6::before{
+            animation: animate 4s linear infinite;
+            animation-delay: calc(0.1s * 6);
+        }
+section .container .circle .i7{
+    transform: rotate(calc(18deg * 7));
+}
+section .container .circle .i7::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 7);
+}
+section .container .circle .i8{
+    transform: rotate(calc(18deg * 8));
+}
+section .container .circle .i8::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 8);
+}  
+section .container .circle .i9{
+    transform: rotate(calc(18deg * 9));
+}
+section .container .circle .i9::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 9);
+}
+section .container .circle .i10{
+transform: rotate(calc(18deg * 10));
+}
+section .container .circle .i10::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 10);
+}
+section .container .circle .i11{
+    transform: rotate(calc(18deg * 11));
+}
+section .container .circle .i11::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 11);
+}
+section .container .circle .i12{
+    transform: rotate(calc(18deg * 12));
+}    
+section .container .circle .i12::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 12);
+}
+section .container .circle .i13{
+    transform: rotate(calc(18deg * 13));
+}    
+section .container .circle .i13::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 13);
+}
+section .container .circle .i14{
+    transform: rotate(calc(18deg * 14));
+}
+section .container .circle .i14::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 14);
+}
+section .container .circle .i15{
+    transform: rotate(calc(18deg * 15));
+}
+section .container .circle .i15::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 15);
+}
+section .container .circle .i16{
+    transform: rotate(calc(18deg * 16));
+}
+section .container .circle .i16::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 16);
+}
+section .container .circle .i17{
+    transform: rotate(calc(18deg * 17));
+}    
+section .container .circle .i17::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 17);
+}
+section .container .circle .i18{
+    transform: rotate(calc(18deg * 18));
+}
+section .container .circle .i18::before{
+animation: animate 4s linear infinite;
+animation-delay: calc(0.1s * 18);
+}
+section .container .circle .i19{
+    transform: rotate(calc(18deg * 19));
+}    
+section .container .circle .i19::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 19);
+}
+section .container .circle .i20{
+    transform: rotate(calc(18deg * 20));
+}
+section .container .circle .i20::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * 20);
+}
+
+
+section .container .circle:nth-child(2) .i0{
+    transform: rotate(calc(18deg * 0));
+}
+section .container .circle:nth-child(2) .i0::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 0);
+}
+section .container .circle:nth-child(2) .i1{
+    transform: rotate(calc(18deg * 1));
+}
+section .container .circle:nth-child(2) .i1::before{
+        animation: animate 4s linear infinite;
+        animation-delay: calc(-0.1s * 1);
+}
+section .container .circle:nth-child(2) .i2{
+    transform: rotate(calc(18deg * 2));
+}
+section .container .circle:nth-child(2) .i2::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 2);
+}
+section .container .circle:nth-child(2) .i3{
+    transform: rotate(calc(18deg * 3));
+}
+section .container .circle:nth-child(2) .i3::before{
+        animation: animate 4s linear infinite;
+        animation-delay: calc(-0.1s * 3);
+    }
+section .container .circle:nth-child(2) .i4{
+    transform: rotate(calc(18deg * 4));
+}
+section .container .circle:nth-child(2) .i4::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 4);
+}
+section .container .circle:nth-child(2) .i5{
+    transform: rotate(calc(18deg * 5));
+}
+section .container .circle:nth-child(2) .i5::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 5);
+}
+section .container .circle:nth-child(2) .i6{
+    transform: rotate(calc(18deg * 6));
+}
+section .container .circle:nth-child(2) .i6::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 6);
+}
+section .container .circle:nth-child(2) .i7{
+    transform: rotate(calc(18deg * 7));
+}
+section .container .circle:nth-child(2) .i7::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 7);
+}
+section .container .circle:nth-child(2) .i8{
+    transform: rotate(calc(18deg * 8));
+}    
+section .container .circle:nth-child(2) .i8::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 8);
+}
+section .container .circle:nth-child(2) .i9{
+    transform: rotate(calc(18deg * 9));
+}
+section .container .circle:nth-child(2) .i9::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 9);
+}
+section .container .circle:nth-child(2) .i10{
+    transform: rotate(calc(18deg * 10));
+}
+section .container .circle:nth-child(2) .i10::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 10);
+}
+section .container .circle:nth-child(2) .i11{
+    transform: rotate(calc(18deg * 11));
+}
+section .container .circle:nth-child(2) .i11::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 11);
+}
+section .container .circle:nth-child(2) .i12{
+    transform: rotate(calc(18deg * 12));
+}
+section .container .circle:nth-child(2) .i12::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 12);
+}
+section .container .circle:nth-child(2) .i13{
+    transform: rotate(calc(18deg * 13));
+}
+section .container .circle:nth-child(2) .i13::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 13);
+}
+section .container .circle:nth-child(2) .i14{
+    transform: rotate(calc(18deg * 14));
+}
+section .container .circle:nth-child(2) .i14::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 14);
+}
+section .container .circle:nth-child(2) .i15{
+    transform: rotate(calc(18deg * 15));
+}
+section .container .circle:nth-child(2) .i15::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 15);
+}
+section .container .circle:nth-child(2) .i16{
+    transform: rotate(calc(18deg * 16));
+}
+section .container .circle:nth-child(2) .i16::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 16);
+}
+section .container .circle:nth-child(2) .i17{
+    transform: rotate(calc(18deg * 17));
+}
+section .container .circle:nth-child(2) .i17::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 17);
+}
+section .container .circle:nth-child(2) .i18{
+    transform: rotate(calc(18deg * 18));
+}
+section .container .circle:nth-child(2) .i18::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 18);
+}
+section .container .circle:nth-child(2) .i19{
+    transform: rotate(calc(18deg * 19));
+}
+section .container .circle:nth-child(2) .i19::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 19);
+}
+section .container .circle:nth-child(2) .i20{
+    transform: rotate(calc(18deg * 20));
+}
+section .container .circle:nth-child(2) .i20::before{
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-0.1s * 20);
+}
