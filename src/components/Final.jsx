@@ -65,7 +65,7 @@ const Final = ({column}) => {
       }
       {
         column === '1' && resultsFinal[0]?.winner && !loading &&
-        <div className='absolute mt-[165px] ml-[-75px] lg:ml-0 lg:mt-[-250px] lg:w-[306px] lg:p-1 font-semibold'>
+        <div className='absolute mt-[165px] flex flex-col justify-center lg:ml-0 lg:mt-[-250px] lg:w-[306px] lg:p-1 font-semibold'>
           <p className='lg:text-xl text-center text-groupC'>{(resultsFinal[0]?.winner?.name).toUpperCase()}</p>
           <p className='text-center'>CAMPEÓN DEL MUNDO QATAR 2022</p>
           <div className='flex justify-center mt-3'>
