@@ -81,6 +81,7 @@ const signup = () => {
                     .then((res) => {
                         const users = res.docs.map((doc) => ({docId: doc.id, ...doc.data()}))
                         const findedGroup = users.find((user) => user.groupName === values.groupName.toLowerCase())
+                        console.log(findedGroup)
                         if(!findedGroup){
                             register(values.email, values.password, usersRef, values.name, values.lastName, values.groupName.toLowerCase(), true)
                         } else {
